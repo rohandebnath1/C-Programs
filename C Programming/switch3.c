@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-// Menu driven program to find the area perimeter of circle square and rectangle
 int main(){
     float pi = 3.14159;
     float rad,side,length,breadth;
