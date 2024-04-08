@@ -1,0 +1,46 @@
+header{
+    color: #0096C7;
+    font-size: 15px;
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline wavy tomato;
+    font-size: 55px;
+    font-family: monospace; 
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-decoration: underline dotted goldenrod;
+}
+p {
+    line-height: 2.5;
+    letter-spacing: 3px;
+}
+
+h3{
+    text-decoration: underline goldenrod dotted;
+    font-family: monospace;
+}
+#login{
+    color: #ADE8F4;
+    background-color:#03045E;   
+}
+
+#register{
+    color: #03045E;
+    background-color: #FFF3B0;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #6A994E;
+}
+
+#rdb{
+    color:  #03045E;
+    font-size: 25px;
+}

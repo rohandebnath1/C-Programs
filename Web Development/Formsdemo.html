@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <form action="Login">
+        <p>
+            <label for="username">Enter the Username:</label>
+            <input id="username" type="text" placeholder="username" name="usr">
+        </p>
+        <p>
+            <label for="password">Enter the password:</label>
+            <input id = "password" type="password" placeholder="password" name ="pwd">
+        </p>
+        <p>
+            <label for="dob">Enter Date Of Birth:</label>
+            <input id= "dob" type="date" name="dob">
+        </p>
+        <button type="Submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    <h2>Random Search bar</h2>
+    <form action="https://www.youtube.com/results">
+        <input type="Search" name="search_query">
+        <button>Search youtube</button>
+    </form>
+
+    <h3>More Inputs!</h3>
+    <form action="/dogs">
+        <input type="checkbox" name ="tos" id="agreetos" checked>
+        <label for="agreetos">I agree to the Terms and Conditions</label>
+    </form>
+
+    <h2>validations</h2>
+    <form action="/dummy">
+        <label for="first">Enter name</label>
+        <input type="text" name = "first" id = "first" required>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
