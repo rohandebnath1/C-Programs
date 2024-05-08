@@ -1,8 +1,0 @@
-f = open(r"E:\Python Files\q23.txt","r",newline = "")
-lst = f.readlines()
-print(lst[0])
-print(lst[2])
-print(lst[5])
-print(lst[1])
-print(lst[4])
-print(lst[3])
