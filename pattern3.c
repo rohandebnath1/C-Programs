@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <conio.h>
+
 // Printing this following pattern 
 //      *
 //     **
@@ -6,6 +8,7 @@
 //   ****
 //  *****
 // ******
+
 int main(){
     int i,j,k;
     for (i=1;i<=6;i++){
@@ -18,4 +21,5 @@ int main(){
     printf("\n");
     }
 return 0;
+getch();
 }

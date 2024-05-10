@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 
 // For printing the followinf pattern
 //      *     
@@ -14,10 +15,8 @@ int main(){
         for (k=1;k<=(2*i)-1;k++){
             printf("*");
         }
-        for (l=5;l>=i;l--){
-            printf(" ");
-        }
     printf("\n");
     }
 return 0;
+getch();
 }

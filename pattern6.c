@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 
 // For printing the following pattern
 //  ***** 
@@ -20,4 +21,5 @@ int main(){
         printf("\n");
     }
 return 0;
+getch();
 }
