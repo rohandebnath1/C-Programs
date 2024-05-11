@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <conio.h>
 
+// A pattern to print the heart symbol <3
+
 int main(){
     int i,j,k,l,m,n,p,x,y,z;
     for (i=1;i<=5;i++){
