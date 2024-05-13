@@ -4,7 +4,7 @@
 //To find the prime numbers in an 1-D array
 
 int prime(int x){
-    int i,c;
+    int i,c=0;
     for (i=1;i<=x;i++){
         if(x % i == 0){
             c += 1;
@@ -30,4 +30,3 @@ int main(){
 getch();
 return 0;  
 }
-
