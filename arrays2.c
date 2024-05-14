@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 
 // A simple program to take input an array of size 5 and print the array
 
@@ -12,5 +13,6 @@ int main(){
     for (i=0;i<5;i++){
         printf("%d \t",b[i]);
     }
+getch();
 return 0;
 }

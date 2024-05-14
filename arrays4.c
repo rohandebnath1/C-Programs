@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 
 // A C program to display only the even values in 1-D array entered by user
 
@@ -14,5 +15,6 @@ int main(){
             printf("%d \t",a[i]);
         }
     }
+getch();
 return 0;
 }

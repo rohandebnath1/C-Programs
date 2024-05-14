@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 
 //To enter a number it finds out the factorial of it
 
@@ -12,4 +13,5 @@ int main(){
     }
 printf("The factorial of the number is: %d",fact);
 return 0;
+getch();
 }

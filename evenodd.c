@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 
 //Program to find a number is odd or even using if else
 
@@ -13,6 +14,7 @@ int main(){
         printf("%d is odd", num);
     }
     return 0;
+getch();
 }
 
 

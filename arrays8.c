@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 
 // A C program to replace the numbers by 0 and 1 if index if even and odd respectively
 
@@ -18,6 +19,6 @@ int main(){
         printf("The new array would be: \n");
         printf("%d \t",arr[i]);
     }
-    
+getch();
 return 0;
 }

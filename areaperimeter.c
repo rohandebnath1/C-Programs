@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 
 //To calculate and display the area and perimeter of a circle, square and rectangle
 
@@ -30,5 +31,6 @@ int main(){
                  break;
         default: printf("Enter correct choice!!");
     }
+getch();
 return 0;
 }

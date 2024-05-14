@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<math.h>
+#include<conio.h>
 
 int main(){
     int a,b,num,sum=0,temp,c=0;
@@ -17,7 +18,6 @@ int main(){
         b = ceil(pow(a,c)); //27,125,1
         temp = temp / 10; //15,1,0
         sum = sum + b;//27,152,153
-        printf("%d ",sum);
     }
     if (sum==num){
         printf("Its an Armstrong Number");
@@ -25,5 +25,6 @@ int main(){
     else{
         printf("Its not an Armstrong number");
     }
+getch();
 return 0;
 }

@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 
 // A C Program to reverse the contents of an array
 
@@ -8,9 +9,10 @@ int main(){
         printf("Enter the Number: ");
         scanf("%d",&arr[i]);
     }
-    printf("The reversed array is as follows: ")
+    printf("The reversed array is as follows: ");
     for(i=4;i>-1;i--){
         printf("%d \t",arr[i]);
     }
+getch();
 return 0;
 }

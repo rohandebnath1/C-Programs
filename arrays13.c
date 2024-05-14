@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 
 // A simple c program to calculate the size of the array using SizeOf
 
@@ -13,5 +14,6 @@ int main(){
     }
     int sizr = sizeof(arr)/4;
     printf("The size of the array is: %d",sizr);
+getch();
 return 0;
 }

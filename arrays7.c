@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 
 // A program in C to print only the numbers in 1-D Array divisible by 3 or 7
 
@@ -14,5 +15,6 @@ int main(){
             printf("%d \t",arr[i]);
         }
     }
+getch();
 return 0;
 }

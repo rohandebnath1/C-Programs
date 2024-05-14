@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <conio.h>
 
 // Printing numbers starting from an user given point
 
@@ -15,4 +16,5 @@ int main(){
         printf("Enter number between 1 - 50!! ");
     }
 return 0;
+getch();
 }

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<conio.h>
 
 // C Program to enter n number of terms in an 1-D Array and print it
 
@@ -15,5 +16,6 @@ int main(){
     for (i=0;i<n;i++){
         printf("%d \t",arr[i]);
     }
+getch();
 return 0;
 }

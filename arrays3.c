@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 
 // Program in C to take an array as input and print only odd numbers in it
 
@@ -14,5 +15,6 @@ int main(){
             printf("%d \t",b[i]);
         }    
     }
+getch();
 return 0;
 }

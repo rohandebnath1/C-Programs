@@ -1,4 +1,7 @@
 #include<stdio.h>
+#include <conio.h>
+
+// Program in C to find the biggest among the two given numbers!
 
 int main(){
     int a,b;
@@ -14,4 +17,5 @@ int main(){
         printf("Both are equal!");
     }
     return 0;
+getch();
 }

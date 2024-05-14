@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <conio.h>
 
 // WAP to input a character and check whether it is a 
 // lowercase vowel or uppercase vowel or none using if statement.
@@ -23,4 +24,5 @@ int main(){
         printf("Enter a vowel!!");
     }
 return 0;
+getch();
 }

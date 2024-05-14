@@ -1,4 +1,7 @@
 #include<stdio.h>
+#include<conio.h>
+
+// Linear Search Algo in 1-D array
 
 int main(){
     int i, arr[5],num;
@@ -15,11 +18,12 @@ int main(){
             break;
         }
     }
-    if(i == 4){
+    if(i == 5){
         printf("No Match Found!!");
     }
     else{
         printf("Match Found! At index number: %d",i);
     }
+getch();
 return 0;
 }

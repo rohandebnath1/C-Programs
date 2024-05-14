@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 
 // A C program to check whether a value is repeated in a 1-D Array
 
@@ -24,7 +25,7 @@ int main(){
     else{
         printf("No Match Found!!");
     }
-
+getch();
 return 0;
 
 }

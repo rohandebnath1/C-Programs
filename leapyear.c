@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 
 // to check if a year is leap year or not
 
@@ -20,5 +21,6 @@ int main(){
         printf("Leap year");
     }
 return 0;
+getch();
 }
         

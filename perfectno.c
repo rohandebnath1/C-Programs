@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 
 // to check if a number is perfect number or not
 
@@ -18,4 +19,5 @@ int main(){
         printf("Its not a perfect number!");
     }
 return 0;
+getch();
 }

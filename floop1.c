@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<conio.h>
+
 // First for loop program in C for printing 1 to 10
 
 int main(){
@@ -7,4 +9,5 @@ int main(){
         printf("%d \n",i);
     }
 return 0;
+getch();
 }

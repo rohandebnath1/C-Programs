@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <conio.h>
+
 // Another program to print 10 to 1
 
 int main(){
@@ -7,4 +9,5 @@ int main(){
         printf("%d \n",i);
     }
 return 0;
+getch();
 }
