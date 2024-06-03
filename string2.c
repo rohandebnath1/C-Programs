@@ -1,14 +1,10 @@
 #include<stdio.h>
+#include<conio.h>
 
 int main(){
-    char str[5],i;
-    for (i=0;i<5;i++){
-        printf("Enter any charcater: ");
-        scanf("%s",&str[i]);
-    }
-    for (i=0;i<5;i++){
-        printf("%s",str[i]);
-    }
-
+    char name[6] = {'R','o','h','a','n'};
+    printf("My name is: %s",name);
+    
+getch();
 return 0;
 }
